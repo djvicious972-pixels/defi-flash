@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#111827" />
+  <meta name="description" content="Défi Flash : des défis rapides et fun pour soirées, couples, familles et amis. Lance un défi, partage-le et recommence." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://defiflash.fr/" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" href="/assets/icon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="/assets/styles.css" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3033390719516627" crossorigin="anonymous"></script>
+  <title>Défi Flash — Défis rapides entre amis, en couple et en famille</title>
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="/">⚡ Défi Flash</a>
+  <nav><a href="#categories">Catégories</a><a href="#comment-ca-marche">Comment jouer</a></nav>
+</header>
+<main>
+  <section class="hero">
+    <span class="pill">GRATUIT • SANS INSCRIPTION</span>
+    <h1>Un défi. Une action. <span>Maintenant.</span></h1>
+    <p>Choisis une catégorie et lance un défi instantané pour mettre l'ambiance, casser la routine ou créer un souvenir.</p>
+    <div class="hero-actions">
+      <button class="primary" id="randomChallenge">⚡ Lancer un défi au hasard</button>
+      <a class="secondary" href="#categories">Voir les catégories</a>
+    </div>
+  </section>
+
+  <section class="challenge-card" id="challengeBox" aria-live="polite">
+    <div class="challenge-icon">🎯</div>
+    <div>
+      <small>DÉFI FLASH</small>
+      <h2 id="challengeText">Clique sur “Lancer un défi” pour commencer.</h2>
+      <div class="challenge-actions">
+        <button id="anotherChallenge">Autre défi</button>
+        <button id="shareChallenge">Partager</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="categories" class="content-section">
+    <div class="section-heading"><span>CHOISIS TON AMBIANCE</span><h2>6 catégories pour ne jamais tourner en rond</h2></div>
+    <div class="grid">
+      <a class="category-card" href="/soiree/"><b>🥳 Soirée</b><p>Défis rapides pour lancer l'ambiance et faire participer tout le groupe.</p></a>
+      <a class="category-card" href="/amis/"><b>🤝 Entre amis</b><p>Questions, mini-missions et challenges simples à partager.</p></a>
+      <a class="category-card" href="/couple/"><b>❤️ Couple</b><p>Défis complices, légers et amusants pour casser la routine.</p></a>
+      <a class="category-card" href="/famille/"><b>👨‍👩‍👧‍👦 Famille</b><p>Défis accessibles et conviviaux pour petits et grands.</p></a>
+      <a class="category-card" href="/soft/"><b>🌿 Soft</b><p>Des défis calmes, créatifs et adaptés aux moments tranquilles.</p></a>
+      <a class="category-card" href="/challenge/"><b>🔥 Challenge</b><p>Des mini-défis chronométrés pour ceux qui veulent se dépasser.</p></a>
+    </div>
+  </section>
+
+  <section id="comment-ca-marche" class="content-section prose">
+    <h2>Comment jouer à Défi Flash ?</h2>
+    <p>Défi Flash est un générateur de mini-défis conçu pour être utilisé immédiatement depuis un téléphone. Choisis une catégorie, lance un défi, puis réalise-le ou passe au suivant. Aucun compte n'est nécessaire.</p>
+    <p>Le but est simple : éviter les longues règles et proposer des idées faciles à comprendre en quelques secondes. Les catégories permettent d'adapter le ton au contexte : soirée, amis, couple, famille, ambiance calme ou challenge.</p>
+    <h3>Pourquoi utiliser un générateur de défis ?</h3>
+    <p>Quand un groupe manque d'idées, une consigne courte suffit souvent à relancer la conversation. Les défis servent de déclencheurs : ils peuvent faire rire, créer un souvenir, encourager une activité créative ou simplement permettre de choisir rapidement quoi faire ensuite.</p>
+  </section>
+
+  <section class="content-section faq">
+    <h2>Questions fréquentes</h2>
+    <details><summary>Défi Flash est-il gratuit ?</summary><p>Oui. Le site est gratuit et financé par la publicité.</p></details>
+    <details><summary>Faut-il créer un compte ?</summary><p>Non. Tu peux lancer des défis immédiatement sans inscription.</p></details>
+    <details><summary>Peut-on installer Défi Flash sur un téléphone ?</summary><p>Oui. Le site est une PWA : sur les navigateurs compatibles, il peut être ajouté à l'écran d'accueil comme une application.</p></details>
+    <details><summary>Les défis sont-ils adaptés à tous les publics ?</summary><p>Les catégories Famille et Soft sont pensées pour rester accessibles. Les autres catégories restent légères et évitent les contenus dangereux ou illégaux.</p></details>
+  </section>
+</main>
+<footer>
+  <div><b>⚡ Défi Flash</b><p>Des idées simples pour rendre chaque moment plus vivant.</p></div>
+  <div class="footer-links"><a href="/confidentialite/">Confidentialité</a><a href="/mentions-legales/">Mentions légales</a></div>
+</footer>
+<script src="/assets/app.js" defer></script>
+</body>
+</html>
